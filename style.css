@@ -145,3 +145,14 @@ li{
 .quote h1{
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1030px){
+    .form{
+        width:350px;
+    }
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+    }
+}
